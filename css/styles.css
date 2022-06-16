@@ -49,7 +49,7 @@ p{
 
 img{
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -315,12 +315,28 @@ img{
 
 .skills__data{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
 }
 
 .my_process_title{
     margin-bottom: .8rem;
+}
+
+
+.skills_images{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
+    grid-gap: 1.5rem;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.skills_image_box{
+    /* box-shadow: 0px 4px 4px 1px lightgray; */
+    /* padding: .2rem; */
+    width: 120px;
+    height: 120px;
 }
 
 .skills__stack span{
@@ -352,15 +368,20 @@ img{
     height: 5px;
 }
 .outer__skill-box .inner__skill-box3{
-    width: 65%;
+    width: 80%;
     height: 5px;
 }
 .outer__skill-box .inner__skill-box4{
-    width: 70%;
+    width: 75%;
     height: 5px;
 }
 
 .outer__skill-box .inner__skill-box5{
+    width: 70%;
+    height: 5px;
+}
+
+.outer__skill-box .inner__skill-box6{
     width: 50%;
     height: 5px;
 }
@@ -480,34 +501,24 @@ img{
     background-color: var(--white);
 }
 
+
 .bg__one{
-    background-image: url("/images/japan-website.jpg");
-}
-.bg__two{
     background-image: url("/images/coffe-website.jpg");
 }
-
-.bg__three{
-    background-image: url("/images/shoppingCart-app.jpg");
-}
-
-.bg__four{
-    background-image: url("/images/loopstudios.png");
-}
-.bg__five{
-    background-image: url("/images/lego.jpg");
-}
-.bg__six{
+.bg__two{
     background-image: url("/images/marvel-dc.jpg");
 }
-.bg__seven{
+.bg__three{
     background-image: url("/images/gif.jpg");
 }
-.bg__eight{
+.bg__four{
     background-image: url("/images/todo-image.png");
 }
-.bg__nine{
+.bg__five{
     background-image: url("/images/weathet-image.jpg");
+}
+.bg__six{
+    background-image: url("/images/dog_app.PNG");
 }
 
 @media (min-width:760px){
