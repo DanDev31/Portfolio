@@ -475,6 +475,7 @@ img{
     font-weight: 600;
 }
 
+
 .project__buttons{
     margin-top: .5rem;
     display: flex;
@@ -519,6 +520,9 @@ img{
 }
 .bg__six{
     background-image: url("/images/dog_app.PNG");
+}
+.bg__seven{
+    background-image: url("/images/rocket_img.PNG");
 }
 
 @media (min-width:760px){
