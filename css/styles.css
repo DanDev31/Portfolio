@@ -271,10 +271,12 @@ img{
     border-bottom: 1.5px solid #3a3a3a;
 }
 
+
 .about__image{
-    max-width: 500px;
+    max-width: 400px;
     margin: 30px auto;
 }
+
 
 .cv__button{
     margin-top: 2rem;
