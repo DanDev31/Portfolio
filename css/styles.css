@@ -509,12 +509,7 @@ img{
 .bg__two{
     background-image: url("/images/marvel-dc.jpg");
 }
-.bg__three{
-    background-image: url("/images/gif.jpg");
-}
-.bg__four{
-    background-image: url("/images/todo-image.png");
-}
+
 .bg__five{
     background-image: url("/images/weathet-image.jpg");
 }
