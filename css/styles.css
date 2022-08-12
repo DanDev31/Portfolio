@@ -511,7 +511,9 @@ img{
 .bg__two{
     background-image: url("/images/marvel-dc.jpg");
 }
-
+.bg__three{
+    background-image: url("/images/ecommerce-img.png");
+}
 .bg__five{
     background-image: url("/images/weathet-image.jpg");
 }
