@@ -514,6 +514,9 @@ img{
 .bg__three{
     background-image: url("/images/ecommerce-img.png");
 }
+.bg__four{
+    background-image: url("/images/movies-app-img.jpg");
+}
 .bg__five{
     background-image: url("/images/weathet-image.jpg");
 }
