@@ -317,8 +317,18 @@ img{
 
 .skills__data{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: 1fr;
     grid-column-gap: 4rem;
+}
+
+@media (min-width:700px){
+    .skills__data{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.skills__text p{
+    text-align: justify;
 }
 
 .my_process_title{
