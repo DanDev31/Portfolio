@@ -317,7 +317,7 @@ img{
 
 .skills__data{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-column-gap: 4rem;
 }
 
@@ -388,12 +388,6 @@ img{
     height: 5px;
 }
 
-@media (min-width:760px){
-    .skills .skills__data{
-        grid-template-columns: 1fr 1fr;
-    }
- 
-}
 
 /* Projects Section */
 
